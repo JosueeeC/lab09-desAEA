@@ -6,12 +6,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entity;
+using System.Configuration;
+
 
 namespace Datos
 {
-    public class DInvoice
+    public class DInvoice 
     {
-        public static string connectionString = "Data Source=LAB1504-28\\SQLEXPRESS;Initial Catalog=TAREA;User ID=josue;Password=123456";
+
+
+        public static string connectionString = "Data Source=LAB1504-31\\SQLEXPRESS;Initial Catalog=TAREA;User ID=josue;Password=123456";
 
         public List<Invoice> Get()
         {

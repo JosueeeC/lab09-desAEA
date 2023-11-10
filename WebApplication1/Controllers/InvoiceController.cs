@@ -1,4 +1,5 @@
-﻿using Entity;
+﻿using Datos;
+using Entity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Servicio;
@@ -40,10 +41,22 @@ namespace WebApplication1.Controllers
         // POST: InvoiceController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(InvoiceModel model)
         {
             try
             {
+                BInvoice bInvoice = new BInvoice();
+
+                Invoice invoice = new Invoice
+                {
+                    Customer_id = model.Customer_Id,
+                    Total = model.Total,
+                    Date = DateTime.Now,    
+                };
+
+                bInvoice.InsertInvoice(invoice);
+
+
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -76,16 +89,23 @@ namespace WebApplication1.Controllers
         // GET: InvoiceController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            BInvoice bInvoice = new BInvoice();
+            var invoices = bInvoice.Get();
+            var result = invoices.FirstOrDefault(x => x.Invoice_id == id);
+
+            return View(result);
         }
 
         // POST: InvoiceController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult DeleteInvoice( int Invoice_id)
         {
             try
             {
+                BInvoice bInvoice = new BInvoice();
+                bInvoice.DeleteInvoice(Invoice_id);
+
                 return RedirectToAction(nameof(Index));
             }
             catch

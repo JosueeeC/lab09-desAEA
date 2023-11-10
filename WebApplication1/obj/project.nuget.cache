@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D+ABzJz3QIloLxafbEVEGJj1eT67/dZImckUus3rti8a3SRdkVh79wkQZE5LOKBi+fLW+AQIBTt3vvsUqqlm6A==",
+  "dgSpecHash": "rR1K9oCI6M8Sf0RPmA5VkavUqmRPhJovznNQ2SbcEzt62EmVTPxL16VjgZhc1Q5cTNCDnK4XGpXoZ3jPmZC7xA==",
   "success": true,
-  "projectFilePath": "D:\\xd\\lab07xd-desAEA\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "D:\\xd\\lab11-1\\lab09-desAEA\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\extended.wpf.toolkit\\4.5.1\\extended.wpf.toolkit.4.5.1.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U2vDiIJL36vr337V0GGuiYuJqtCDDkkA59Yl2pCXCWXZl1o6cbTdjxd17SC9yB6fEekfwkH+2lI13XGlmDNymg==",
+  "dgSpecHash": "4zO27j3Ssm9yWZxauJZ4eAvFsZAtZR+0MVyL9sOgtFRGi+eEwtFbOwc1QJ+zQyBWAudm6TzfQICrSdWJVTK8iA==",
   "success": true,
-  "projectFilePath": "D:\\xd\\lab07xd-desAEA\\Servicio\\Servicio.csproj",
+  "projectFilePath": "D:\\xd\\lab11-1\\lab09-desAEA\\Servicio\\Servicio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\extended.wpf.toolkit\\4.5.1\\extended.wpf.toolkit.4.5.1.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

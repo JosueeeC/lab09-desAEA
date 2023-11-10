@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\xd\\lab07xd-desAEA\\Entity\\Entity.csproj": {}
+    "D:\\xd\\lab11-1\\lab09-desAEA\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "D:\\xd\\lab07xd-desAEA\\Entity\\Entity.csproj": {
+    "D:\\xd\\lab11-1\\lab09-desAEA\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\xd\\lab07xd-desAEA\\Entity\\Entity.csproj",
+        "projectUniqueName": "D:\\xd\\lab11-1\\lab09-desAEA\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "D:\\xd\\lab07xd-desAEA\\Entity\\Entity.csproj",
+        "projectPath": "D:\\xd\\lab11-1\\lab09-desAEA\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "D:\\xd\\lab07xd-desAEA\\Entity\\obj\\",
+        "outputPath": "D:\\xd\\lab11-1\\lab09-desAEA\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

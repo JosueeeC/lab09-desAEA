@@ -601,11 +601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xd\\lab07xd-desAEA\\Datos\\Datos.csproj",
+      "projectUniqueName": "D:\\xd\\lab11-1\\lab09-desAEA\\Datos\\Datos.csproj",
       "projectName": "Datos",
-      "projectPath": "D:\\xd\\lab07xd-desAEA\\Datos\\Datos.csproj",
+      "projectPath": "D:\\xd\\lab11-1\\lab09-desAEA\\Datos\\Datos.csproj",
       "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "D:\\xd\\lab07xd-desAEA\\Datos\\obj\\",
+      "outputPath": "D:\\xd\\lab11-1\\lab09-desAEA\\Datos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -627,8 +627,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\xd\\lab07xd-desAEA\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\xd\\lab07xd-desAEA\\Entity\\Entity.csproj"
+            "D:\\xd\\lab11-1\\lab09-desAEA\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\xd\\lab11-1\\lab09-desAEA\\Entity\\Entity.csproj"
             }
           }
         }

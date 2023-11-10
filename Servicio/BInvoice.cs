@@ -11,7 +11,7 @@ namespace Servicio
     public class BInvoice
     {
 
-        DInvoice dInvoice = new DInvoice();
+        DInvoice dInvoice = new DInvoice(configuration);
 
         public List<Invoice> Get() {
             var invoices = dInvoice.Get();
